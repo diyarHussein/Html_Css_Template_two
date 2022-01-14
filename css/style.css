@@ -87,15 +87,19 @@ header .container nav ul li a.active {
   color: var(--main-color);
   border-bottom: 1px solid var(--main-color);
 }
-header .container nav form {
+header nav .form {
   width: 40px;
   height: 30px;
+  position: relative;
   margin-left: 30px;
   border-left: 1px solid white;
-  position: relative;
 }
-header .container nav form i {
-  font-size: 15px;
+header nav .form i {
+  color: white;
   position: absolute;
+  font-size: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
 }
 /* End Header */
